@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <div class="topnav">
+        <a class="active" href="About_Me.html">About me</a> 
+        <a href="Login.html">Login</a>
+        <a href="Contact.html">Contact</a> 
+        <a href="Register.html">Register</a>
+        <a href="Calculator.html">Calculator</a>
+        </div><br><br>
+
+    <table>
+        <caption>Calculator with Table</caption>
+        <thead>
+        <tr>
+            <th>0</th><br>
+        </tr>
+    </thead><br>
+            <tr>
+                <td>C</td>
+                <td>/</td>
+                <td>x</td>
+                <td>del</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>+/-</td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td>0</td>
+                <td>%</td><br>
+                <td class="equal">=</td>
+            </tr>
+    </table><br><br>
+
+    <caption>Calculator with Flexbox</caption><br>
+
+        <br>
+        <div class="calculator">
+            <div class="calculator_display">0</div>
+            <div class="calculator_keys">
+                <button class="key--operator"
+                data-action="add">+</button>
+                <button class="key--operator"
+                data-action="subtract">-</button>
+                <button class="key--operator"
+                data-action="multiply">&times;</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>%</button>
+                <button>0</button>
+                <button class="key--operator"
+                data-action="divide">/</button>
+                <button data-action="decimal">.</button>
+                <button data-action="clear">C</button>
+                <button class="key--equal" 
+                data-action="calculate">=</button>
+            </div>
+
+        </div>
+</html>

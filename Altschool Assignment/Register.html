@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <title>Register</title>
+<head> 
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./style.css">
+<div class="topnav">
+  <a class="active" href="About_Me.html">About me</a> 
+  <a href="Login.html">Login</a>
+  <a href="Contact.html">Contact</a> 
+  <a href="Register.html">Register</a>
+  <a href="Calculator.html">Calculator</a>
+  </div><br><br>
+
+<form action="Register.html" method="post">
+    
+    <p>
+      <label>First name</label><br>
+      <input type="text" name="first_name">
+    </p>
+    <p>
+      <label>Last name</label><br>
+      <input type="text" name="last_name">
+    </p>
+   
+    <p>
+      <label>Phone number</label><br>
+      <input type="tel" placeholder= +234*********** name="phone">
+    </p>
+    <p> 
+        <label for="Gender">Gender</label><br>
+        <select name="Gender" placeholder="Gender">
+          <option value="Male">Male
+          </option>
+          <option value="Female">Female
+          </option>
+          <option value="Others">Female
+          </option>
+        </select>
+    </p>
+    <p> 
+      <label for="Country">Country</label><br>
+      <select name="Country" id="Country">
+        <option value="Nigeria">Nigeria
+        </option>
+        <option value="Togo">Togo
+        </option>
+        <option value="England">England
+        </option>
+        <option value="Ghana">Ghana
+        </option>
+        <option value="Canada">Canada
+        </option>
+      </select>
+    </p>
+  <p>
+    <label>State/Province</label><br>
+    <select>
+      <option>Oyo</option>
+      <option>Lagos</option>
+      <option>Abuja</option>
+      <option>Kwara</option>
+      <option>Ogun</option>
+    </select>
+  </p>
+  <p>
+        <label for="username">Username:</label><br>
+        <input type="text" placeholder="Username" name="username"><br>
+  </p>
+  <p>
+        <label for="password">Password:</label><br>
+        <input type="password" placeholder="Password" name="password">   
+</p>
+<p>
+    <label for="password">Confirm Password:</label><br>
+    <input type="password" placeholder="Confirm Password" name="password"> 
+</p>
+<p>
+  By creating an account you agree to our <a href="#">Terms & Conditions</a>
+</p>  
+<button type="submit" class="registerbtn">Register</button>
+<div class="container signin">
+<p>Already have an  account?<a href="#">Sign in</a> </p>
+</div>
+</form>
+ </head>
+</html>

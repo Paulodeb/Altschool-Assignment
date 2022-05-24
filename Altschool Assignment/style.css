@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(2, 67, 90);
+  
+  }
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: auto;
+  }
+  .topnav {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+.topnav a.active{
+  background-color: #04AA6d;
+  color: white;
+  width: fit-content;
+  height: auto;
+}
+  h1 {
+    background-color: #333;
+    color: white;
+    text-align:justify;
+    border: 1px solid rgb(0, 4, 59);
+    justify-content: space-around;
+    width: fit-content;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  h3 {
+      font-family: Verdana;
+      text-align: justify;
+      border: 50px;
+  }
+ 
+  input[type=text],
+  input[type=password] {
+    width: 30%;
+    padding: 10px;
+    margin: 4px 0 10px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+  }
+  .signin{
+    background-color: #3b3939;
+    text-align: center;
+    border: none;
+    width: fit-content;
+  }
+
+  button {
+    background-color: #1504aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+  }
+
+  button:hover{
+    opacity: 0.8;
+  }
+
+  span.psw{
+    float: right;
+    padding-top: 16px;
+  }
+  @media screen and (max-width: 300px){
+    span.psw {
+      display: block;
+      float: none;
+    }
+  
+  }
+  table{
+    border: 30px;
+  }
+  td {
+    border: 1px solid rgb(13, 13, 14);
+    color: rgb(252, 248, 248);
+    text-align: center;
+    width: 10%;
+  }
+th {
+  display: block;
+  background-color: #f1f1f1;
+  border: 1px solid rgb(13, 13, 14);
+  color: rgb(8, 8, 8);
+  text-align: right;
+  width: 400%;
+  height: 400%;
+
+  
+}
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+ 
+ div {
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  width: 300px;
+ }
+
+ .calculaor_keys {
+   display: grid;
+   
+ }
+ .calculator_display {
+   text-align: right;
+   background-color: #ddd;
+   color: #333;
+ }
+ .key--equal {
+   background-color: rgb(1, 134, 112);
+   color: #3b3939;
+ }
+ .equal {
+  background-color: rgb(4, 155, 104);
+  color: #3b3939;
+  columns: 30px;
+ }
+ td{
+   background-color: #210196;
+
+ }
+ form{
+   align-items: center;
+ }
